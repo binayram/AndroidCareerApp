@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_basic">
+
+    <fragment
+        android:id="@+id/navigation_basic"
+        android:name="com.Binayram.favdish.ui.Profile.ProfileFragment"
+        android:label="@string/profile"
+        tools:layout="@layout/fragment_profile" />
+
+    <fragment
+        android:id="@+id/navigation_professional"
+        android:name="com.Binayram.favdish.ui.Profession.ProfessionFragment"
+        android:label="@string/professional"
+        tools:layout="@layout/fragment_profession" />
+
+    <fragment
+        android:id="@+id/navigation_education"
+        android:name="com.Binayram.favdish.ui.Education.EducationFragment"
+        android:label="@string/education"
+        tools:layout="@layout/fragment_education" />
+
+    <fragment
+        android:id="@+id/navigation_contactus"
+        android:name="com.Binayram.favdish.ui.Contact.ContactFragment"
+        android:label="@string/contact"
+        tools:layout="@layout/fragment_contact" />
+</navigation>
